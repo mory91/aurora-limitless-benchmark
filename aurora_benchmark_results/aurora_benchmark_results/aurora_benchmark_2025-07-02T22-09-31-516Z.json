@@ -1,0 +1,35 @@
+{
+  "timestamp": "2025-07-02T22:09:31.433Z",
+  "workers": 4,
+  "connectionsPerWorker": 30,
+  "totalConnections": 120,
+  "batchSize": 113,
+  "duration": 57.132,
+  "totalRecords": 12656,
+  "totalDataSizeMB": 963.337064743042,
+  "throughputMBps": 16.86160233744735,
+  "throughputRecordsPerSecond": 221.52208919694743,
+  "avgLatencyMs": 2285.3928571428573,
+  "p50LatencyMs": 2285.3928571428573,
+  "p95LatencyMs": 2285.3928571428573,
+  "p99LatencyMs": 2285.3928571428573,
+  "minLatencyMs": 2285.3928571428573,
+  "maxLatencyMs": 2285.3928571428573,
+  "successCount": 112,
+  "errorCount": 8,
+  "successRate": 0.9333333333333333,
+  "errors": [
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?",
+    "Knex: Timeout acquiring a connection. The pool is probably full. Are you missing a .transacting(trx) call?"
+  ],
+  "optimizationStats": {
+    "configuredConcurrency": 20,
+    "connectionPoolSize": 240
+  }
+}
