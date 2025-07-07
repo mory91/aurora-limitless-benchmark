@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-02T20:34:43.013Z",
+  "workers": 1,
+  "connectionsPerWorker": 50,
+  "totalConnections": 50,
+  "batchSize": 27,
+  "duration": 1.457,
+  "totalRecords": 0,
+  "totalDataSizeMB": 0,
+  "throughputMBps": 0,
+  "throughputRecordsPerSecond": 0,
+  "avgLatencyMs": 0,
+  "p50LatencyMs": 0,
+  "p95LatencyMs": 0,
+  "p99LatencyMs": 0,
+  "minLatencyMs": 0,
+  "maxLatencyMs": 0,
+  "successCount": 0,
+  "errorCount": 50,
+  "successRate": 0,
+  "errors": [
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_0_1751488480425.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_1_1751488480382.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_2_1751488480492.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_3_1751488480460.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_4_1751488480470.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_5_1751488480470.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_6_1751488480469.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_7_1751488480473.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_8_1751488480474.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported",
+    "\n      COPY \"CapturedTextsDistributed\" (\n        \"taskId\", \"stepIndex\", \"name\", \"text\", \"targetNotFound\", \n        \"detectedChange\", \"comparedToTextId\", \"comparedToRecording\", \n        \"listId\", \"listItemIndex\", \"listPageNumber\", \"listPageItemIndex\",\n        \"attachmentS3Key\", \"attachmentMimeType\", \"type\"\n      ) FROM '/Users/mortezahosseini/codes/aurora-limitless-benchmark/temp_csv_files/worker_0_conn_9_1751488480524.csv' WITH (FORMAT csv, HEADER true)\n     - COPY from a file is not supported"
+  ]
+}

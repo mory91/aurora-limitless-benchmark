@@ -1,0 +1,33 @@
+{
+  "timestamp": "2025-07-02T20:41:02.280Z",
+  "workers": 1,
+  "connectionsPerWorker": 50,
+  "totalConnections": 50,
+  "batchSize": 27,
+  "duration": 1.43,
+  "totalRecords": 0,
+  "totalDataSizeMB": 0,
+  "throughputMBps": 0,
+  "throughputRecordsPerSecond": 0,
+  "avgLatencyMs": 0,
+  "p50LatencyMs": 0,
+  "p95LatencyMs": 0,
+  "p99LatencyMs": 0,
+  "minLatencyMs": 0,
+  "maxLatencyMs": 0,
+  "successCount": 0,
+  "errorCount": 50,
+  "successRate": 0,
+  "errors": [
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js",
+    "Cannot find module 'pg-copy-streams'\nRequire stack:\n- /Users/mortezahosseini/codes/aurora-limitless-benchmark/dist/two-stage-worker.js"
+  ]
+}

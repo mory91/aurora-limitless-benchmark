@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-07-02T23:33:10.163Z",
+  "workers": 1,
+  "connectionsPerWorker": 10,
+  "totalConnections": 10,
+  "batchSize": 12288,
+  "duration": 4.415,
+  "totalRecords": 0,
+  "totalDataSizeMB": 0,
+  "throughputMBps": 0,
+  "throughputRecordsPerSecond": 0,
+  "avgLatencyMs": 0,
+  "p50LatencyMs": 0,
+  "p95LatencyMs": 0,
+  "p99LatencyMs": 0,
+  "minLatencyMs": 0,
+  "maxLatencyMs": 0,
+  "successCount": 0,
+  "errorCount": 10,
+  "successRate": 0,
+  "errors": [
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters",
+    "Cannot create a string longer than 0x1fffffe8 characters"
+  ],
+  "optimizationStats": {
+    "configuredConcurrency": 10,
+    "connectionPoolSize": 20
+  }
+}

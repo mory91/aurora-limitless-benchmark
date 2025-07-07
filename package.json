@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@types/node": "^24.0.10",
+    "knex": "^3.1.0",
+    "typescript": "^5.8.3",
+    "uuid": "^11.1.0"
+  },
+  "dependencies": {
+    "pg": "^8.16.3",
+    "pg-copy-streams": "^7.0.0"
+  }
+}

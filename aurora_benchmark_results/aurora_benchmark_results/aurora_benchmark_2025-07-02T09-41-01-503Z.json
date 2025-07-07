@@ -1,0 +1,22 @@
+{
+  "timestamp": "2025-07-02T09:41:01.492Z",
+  "workers": 1,
+  "connectionsPerWorker": 10,
+  "totalConnections": 10,
+  "batchSize": 1000,
+  "duration": 300,
+  "totalRecords": 50000,
+  "totalDataSizeMB": 3936.0645208358765,
+  "throughputMBps": 13.120215069452922,
+  "throughputRecordsPerSecond": 166.66666666666666,
+  "avgLatencyMs": 77485.39999999998,
+  "p50LatencyMs": 77485.39999999998,
+  "p95LatencyMs": 77485.39999999998,
+  "p99LatencyMs": 77485.39999999998,
+  "minLatencyMs": 77485.39999999998,
+  "maxLatencyMs": 77485.39999999998,
+  "successCount": 50,
+  "errorCount": 0,
+  "successRate": 1,
+  "errors": []
+}
